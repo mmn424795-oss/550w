@@ -1,0 +1,28 @@
+# 敏感文件
+.550w_pass
+.550w_profile
+.550w_session
+.550w_config
+.550w_theme
+.550w_moss_memory
+.550w_ratelimit
+.550w_audit
+.550w_history
+.550w_plugin_index
+.550w_logout_hooks
+.550w_restored_*
+
+# 数据目录
+backups/
+logs/
+cache/
+extras/
+new/
+扩展/*/log/
+扩展/*/config/
+
+# 临时
+*.tmp
+*.swp
+*~
+.DS_Store
